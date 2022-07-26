@@ -1,0 +1,8 @@
+--SQL Min and Max
+
+SELECT * FROM PRODUCTS;
+
+SELECT MIN(Price) FROM products;
+SELECT MAX(Price) FROM products;
+SELECT MIN(Price) AS SMALLESTPRICE FROM products;
+SELECT MAX(Price) AS LARGESTPRICE FROM products;
